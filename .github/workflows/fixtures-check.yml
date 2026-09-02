@@ -1,0 +1,14 @@
+name: fixtures-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Golden Fixture corpus integrity (pairing, MANIFEST sync, coverage).
+      - run: python3 scripts/check_fixtures.py
