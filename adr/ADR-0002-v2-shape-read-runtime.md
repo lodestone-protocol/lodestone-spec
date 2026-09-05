@@ -1,6 +1,6 @@
 # ADR-0002: Lodestone v2.0——知识的形状 + 读取的方法 + 运行的时（Draft）
 
-> **状态**: Proposed（等待 Jasonmilk 评审后转 Accepted）
+> **状态**: Accepted（2026-09-06 评审通过：先做不冻结；术语裁定 磁石 lodestone）
 > **日期**: 2026-09-06
 > **范围**: lodestone-spec 协议级决策（v2.0 换代）
 > **关联**: v1.3.0（冻结不迁移）、Helix VISION（按需加载/按需驱动/极致节能/确定性优先）、ADR-0022（会话即经历，Helix-Mind）
