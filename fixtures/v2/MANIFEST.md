@@ -11,3 +11,4 @@
 | 04 | `04_cycle.md` | aligned 双磁石互引 | E-CYCLE |
 | 05 | `05_diagnostics.md` | 重复 slug / 悬空引用 / 无状态 | E-DUP-ID + W-REF-NOT-FOUND + W-STATUS-MISSING |
 | 06 | `06_decay.md` → `06_decay_after.md` | decay 前/后：draft 磁石被遗忘，收敛磁石保留 | 审计行存在；重解析合法 |
+| 07 | `library/` + `07_window.md` | 三会话库（session/created 元数据）+ 窗口投影 + strip | keep=2 时 s1 折叠、s2/s3 完整；strip 后磁力线 0 |
